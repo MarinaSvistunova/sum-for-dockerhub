@@ -9,7 +9,7 @@
 ```bash
 
 
-docker run -itd -p 4321:4321 igossoudarev/summer1
+docker run -itd -p 4321:4321 svmarina/sum-for-dockerhub
 
 curl "localhost:4321/summer?n1=2&n2=5&cors" -H 'Accept:application/json' -i
 
